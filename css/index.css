@@ -257,3 +257,137 @@ section{
   color: white;
   padding-top: 10px;
 }
+@media screen and (max-width: 767px) {
+section{
+  width: 100%;
+}
+  .contenedor1{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .banner{
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    position: static;
+  }
+  .banner h1{
+    font-size: 30px;
+    padding-top: 75px;
+    padding-left: 30px;
+  }
+  .boton{
+    width: 110px;
+    height: 35px;
+     border-radius: 15px;
+     margin-left: 30px;
+     margin-top: 15px;
+     position: relative;
+  }
+  .boton p{
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .redes{
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
+    flex-direction: row;
+    padding-left: 75px;
+  }
+  .instagram{
+    width: 50px;
+  }
+  .facebook{
+    width: 50px;
+  }
+  .redesBox1{
+    width: 50%;
+    height: 50px;
+    padding-top: 0;
+    justify-content: center;
+  }
+  .redesBox2{
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    padding-top: 0;
+  }
+  .novedades{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 5%
+  }
+  .contenedor2{
+    width: 100%;
+    flex-direction: column;
+  }
+  .columna_de_imagenes{
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-top: 15px;
+  }
+  .izq_1{
+    width: 80%;
+    height: 300px;
+  }
+  .perrito1{
+    width: 100%;
+  }
+  .izq_2{
+    width: 80%;
+    height: 300px;
+  }
+  .perrito2{
+    width: 100%;
+  }
+  .video{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .derecha{
+    width: 100%;
+    height: 350px;
+    margin-left: auto;
+  }
+  .vervideo{
+     margin-top: 240px;
+  }
+  .contenedor3{
+    width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .fila1{
+    width: 80%;
+    padding-left: 0;
+    margin-left: 10%;
+  }
+  .contenedor4{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .fila2{
+    width: 80%;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-left: 10%;
+  }
+  .vermas{
+    width: 200px;
+    height: 45px;
+     border-radius: 15px;
+     margin-top: 30px;
+     margin-left: center;;
+     text-align: center;
+  }
+  .vermas p{
+    font-size: 13px;
+  }
+}
