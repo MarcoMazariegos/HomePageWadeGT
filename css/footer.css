@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+footer {
+  width: 100%;
+  height: 85px;
+  background-color: #292929;
+  margin-top: 45px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+.contenedorfooter{
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin:auto;
+  padding-top: 15px;
+  justify-content: center;
+}
+.lateral_izq{
+  width: 30%;
+  height: auto;
+  font-family: 'Red Hat Display', sans-serif;
+  color: white;
+  text-align: left;
+  border-right: 1px white solid;
+  font-size: 13px;
+}
+.medio{
+  width: 30%;
+  height: auto;
+  font-family: 'Red Hat Display', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+.lateral_der{
+  width: 30%;
+  height: auto;
+  font-family: 'Red Hat Display', sans-serif;
+  color: white;
+  text-align: right;
+  border-left: 1px white solid;
+  font-size: 13px;
+}
